@@ -29,6 +29,7 @@
 		A07899652BC33A5500EFAF1C /* ContainerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07899642BC33A5400EFAF1C /* ContainerExtension.swift */; };
 		A07899712BCCDD3900EFAF1C /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07899702BCCDD3900EFAF1C /* Persistable.swift */; };
 		A07899732BCCDD6F00EFAF1C /* DomainConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07899722BCCDD6F00EFAF1C /* DomainConvertibleType.swift */; };
+		A0F26A4E2BD394E300E54CFD /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F26A4D2BD394E300E54CFD /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		A07899642BC33A5400EFAF1C /* ContainerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerExtension.swift; sourceTree = "<group>"; };
 		A07899702BCCDD3900EFAF1C /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		A07899722BCCDD6F00EFAF1C /* DomainConvertibleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainConvertibleType.swift; sourceTree = "<group>"; };
+		A0F26A4D2BD394E300E54CFD /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		C83DCF5A338F2A01E517FC7B /* ModuleCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ModuleCore.podspec; path = ../ModuleCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F55E156958D3D8EE8D36E0D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,6 +259,7 @@
 			children = (
 				A07899702BCCDD3900EFAF1C /* Persistable.swift */,
 				A07899722BCCDD6F00EFAF1C /* DomainConvertibleType.swift */,
+				A0F26A4D2BD394E300E54CFD /* CoreDataStack.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				A07899132BC2EE1B00EFAF1C /* ReplaceMe.swift in Sources */,
 				A07899182BC2EE7000EFAF1C /* BaseViewModel.swift in Sources */,
 				A07899302BC3028C00EFAF1C /* Functions.swift in Sources */,
+				A0F26A4E2BD394E300E54CFD /* CoreDataStack.swift in Sources */,
 				A078993B2BC309A100EFAF1C /* ColorStyle.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				A07899372BC3086900EFAF1C /* ViewControllerUtils.swift in Sources */,
