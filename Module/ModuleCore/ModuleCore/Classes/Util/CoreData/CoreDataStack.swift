@@ -15,7 +15,7 @@ final class CoreDataStack {
     
     public init() {
         let bundle = Bundle(for: CoreDataStack.self)
-        guard let url = bundle.url(forResource: "z", withExtension: "momd"),
+        guard let url = bundle.url(forResource: "production", withExtension: "momd"),
               let model = NSManagedObjectModel(contentsOf: url) else {
             fatalError()
         }
